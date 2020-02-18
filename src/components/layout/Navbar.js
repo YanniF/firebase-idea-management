@@ -19,10 +19,10 @@ const Navbar = () => {
 	);
 };
 
-const maptStateToProps = (state) => {
+const mapStateToProps = (state) => {
 	return {
 		auth: state.firebase.auth,
 	};
 };
 
-export default connect(maptStateToProps)(Navbar);
+export default connect(mapStateToProps)(Navbar);
