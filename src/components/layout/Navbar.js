@@ -12,19 +12,16 @@ const Navbar = (props) => {
 				<Link to="/" className="brand-logo">
 					MarioPlan
 				</Link>
-				{props.auth.uid ? (
-					<SignedInLinks />
-				) : (
-					<SignedOutLinks />
-				)}
+				{props.auth.uid ? <SignedInLinks profile={props.profile} /> : <SignedOutLinks />}
 			</div>
 		</nav>
 	);
 };
 
-const mapStateToProps = (state) => {
+const mapStateToProps = ({ firebase }) => {
 	return {
-		auth: state.firebase.auth,
+		auth: firebase.auth,
+		profile: firebase.profile,
 	};
 };
 
