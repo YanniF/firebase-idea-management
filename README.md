@@ -1,6 +1,6 @@
 Course [React, Redux & Firebase App Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9iWstfXntcj8f-dFZ4UtlN3)
 
-[Check it out](yanni-marioplan.web.app)
+[Check it out](http://yanni-marioplan.web.app)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
