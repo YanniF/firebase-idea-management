@@ -3,7 +3,7 @@ import "firebase/firestore";
 import "firebase/auth";
 
 var firebaseConfig = {
-  apiKey: "AIzaSyDeBTtUpTZvRtvLQ095I-LbWZ8JToWKFVo",
+  apiKey: "",
   authDomain: "yanni-marioplan.firebaseapp.com",
   databaseURL: "https://yanni-marioplan.firebaseio.com",
   projectId: "yanni-marioplan",
